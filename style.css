@@ -24,9 +24,9 @@ svg{
 
 :root{
   /* Light Theme Variables */
-  --color-text-light: #333332;
-  --color-background-light: #FAF4E5;
-  --color-pink-light: #e5a1aa;
+  --color-text-light: #eee;
+  --color-background-light: #111215;
+  --color-pink-light: #8395CD;
   --color-green-light: #7AD0AC;
   --color-blue-light: #111215;
 
@@ -151,7 +151,7 @@ svg{
   left: 50%;
   font-weight: 500;
   font-size: 16px;
-  color: var(--color-text);
+    color: #111215;
   transform: translate(-50%, -50%);
 }
 
@@ -160,7 +160,8 @@ svg{
   top: 90%;
   left: 50%;
   opacity: 0;
-  color: var(--color-text);
+   color: #111215;
+
   transform: translate(-50%, -50%);
   animation: bounce 0.5s ease-in alternate infinite;
 }
@@ -389,30 +390,34 @@ svg{
   position: absolute;
   bottom: 168px;
   left: 0;
-  color: var(--color-text);
+   color: #111215;
+
 }
 
 .hero-second{
   position: absolute;
   top: calc(50% - 120px);
   right: 0;
-  color: var(--color-text);
+  color: #111215;
+
 }
 
 .hero-main-title{
   font-size: 64px;
-  color: var(--color-text);
+  color: #111215;
 }
 
 .hero-main-description{
   font-size: 18px;
-  color: var(--color-text);
+   color: #111215;
+
 }
 
 .hero-second-subheading{
   font-size: 32px;
   text-transform: uppercase;
-  color: var(--color-text);
+    color: #111215;
+
 }
 
 
